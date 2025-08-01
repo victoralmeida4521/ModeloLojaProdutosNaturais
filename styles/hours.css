@@ -1,0 +1,46 @@
+.hours {
+    background-color: var(--color-white);
+  }
+  
+  .hours-content {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .clock-icon {
+    margin-bottom: 2rem;
+    color: var(--color-gold);
+    animation: pulse 2s infinite;
+  }
+  
+  .hours-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+  }
+  
+  .hours-table tr {
+    border-bottom: 1px solid var(--color-pastel);
+  }
+  
+  .hours-table td {
+    padding: 1rem;
+    font-size: 1.1rem;
+  }
+  
+  .hours-table tr:last-child {
+    border-bottom: none;
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.05);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
